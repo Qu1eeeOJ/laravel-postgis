@@ -1,10 +1,10 @@
 <?php
 
-namespace Ajthinking\LaravelPostgis\Connectors;
+namespace MStaack\LaravelPostgis\Connectors;
 
 use Illuminate\Database\Connection;
 use PDO;
-use Ajthinking\LaravelPostgis\PostgisConnection;
+use MStaack\LaravelPostgis\PostgisConnection;
 use Illuminate\Database\Connectors\ConnectionFactory as IlluminateConnectionFactory;
 
 class ConnectionFactory extends IlluminateConnectionFactory

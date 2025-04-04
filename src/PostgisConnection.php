@@ -1,9 +1,9 @@
 <?php
 
-namespace Ajthinking\LaravelPostgis;
+namespace MStaack\LaravelPostgis;
 
 use Illuminate\Database\PostgresConnection;
-use Ajthinking\LaravelPostgis\Schema\Grammars\PostgisGrammar;
+use MStaack\LaravelPostgis\Schema\Grammars\PostgisGrammar;
 
 class PostgisConnection extends PostgresConnection
 {

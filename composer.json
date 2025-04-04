@@ -1,25 +1,25 @@
 {
-  "name": "ajthinking/laravel-postgis",
+  "name": "qu1eeeoj/laravel-postgis",
   "description": "Postgis extensions for laravel. Aims to make it easy to work with geometries from laravel models",
   "require": {
-    "php": ">=7.1",
-    "illuminate/database": "^9.0",
+    "php": "^8.2",
+    "illuminate/database": "^9.0|^10.0|^11.0|^12.0",
     "geo-io/wkb-parser": "^1.0",
     "jmikola/geojson": "^1.0"
   },
   "require-dev": {
-    "illuminate/pagination": "^9.0",
-    "phpunit/phpunit": "^9.0.0",
-    "mockery/mockery": "^1.3"
+    "illuminate/pagination": "^9.0|^10.0|^11.0|^12.0",
+    "phpunit/phpunit": "^11.5.3",
+    "mockery/mockery": "^1.6"
   },
   "autoload": {
     "psr-4": {
-      "Ajthinking\\LaravelPostgis\\": "src/"
+      "MStaack\\LaravelPostgis\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Ajthinking\\LaravelPostgis\\Tests\\": "tests/"
+      "MStaack\\LaravelPostgis\\Tests\\": "tests/"
     }
   },
   "license": "MIT",
@@ -40,11 +40,13 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Ajthinking\\LaravelPostgis\\DatabaseServiceProvider"
+        "MStaack\\LaravelPostgis\\DatabaseServiceProvider"
       ]
     }
   },
   "scripts": {
     "test": "./vendor/bin/phpunit"
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }

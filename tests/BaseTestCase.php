@@ -1,6 +1,6 @@
 <?php
 
-namespace Ajthinking\LaravelPostgis\Tests;
+namespace MStaack\LaravelPostgis\Tests;
 
 use Mockery;
 use PHPUnit\Framework\TestCase;

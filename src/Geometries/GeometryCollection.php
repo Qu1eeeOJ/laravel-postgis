@@ -1,6 +1,6 @@
 <?php
 
-namespace Ajthinking\LaravelPostgis\Geometries;
+namespace MStaack\LaravelPostgis\Geometries;
 
 use Countable;
 use InvalidArgumentException;
@@ -78,7 +78,7 @@ class GeometryCollection extends Geometry implements Countable
                 function ($geometry) {
                     $type = $geometry->getType();
 
-                    return call_user_func('\Ajthinking\LaravelPostgis\Geometries\\' . $type . '::fromGeoJSON', $geometry);
+                    return call_user_func('\MStaack\LaravelPostgis\Geometries\\' . $type . '::fromGeoJSON', $geometry);
 
                 },
                 $geometries

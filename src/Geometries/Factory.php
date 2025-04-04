@@ -1,6 +1,6 @@
 <?php
 
-namespace Ajthinking\LaravelPostgis\Geometries;
+namespace MStaack\LaravelPostgis\Geometries;
 
 class Factory implements \GeoIO\Factory
 {

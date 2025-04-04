@@ -1,12 +1,12 @@
 <?php
 
-namespace Ajthinking\LaravelPostgis\Tests;
+namespace MStaack\LaravelPostgis\Tests;
 
 use Illuminate\Container\Container;
 use Mockery;
-use Ajthinking\LaravelPostgis\Connectors\ConnectionFactory;
-use Ajthinking\LaravelPostgis\PostgisConnection;
-use Ajthinking\LaravelPostgis\Tests\Stubs\PDOStub;
+use MStaack\LaravelPostgis\Connectors\ConnectionFactory;
+use MStaack\LaravelPostgis\PostgisConnection;
+use MStaack\LaravelPostgis\Tests\Stubs\PDOStub;
 
 class ConnectionFactoryTest extends BaseTestCase
 {

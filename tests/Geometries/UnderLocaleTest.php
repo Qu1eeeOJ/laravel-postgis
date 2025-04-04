@@ -1,15 +1,15 @@
 <?php
 
-namespace Ajthinking\LaravelPostgis\Tests\Geometries;
+namespace MStaack\LaravelPostgis\Tests\Geometries;
 
-use Ajthinking\LaravelPostgis\Geometries\GeometryCollection;
-use Ajthinking\LaravelPostgis\Geometries\LineString;
-use Ajthinking\LaravelPostgis\Geometries\MultiLineString;
-use Ajthinking\LaravelPostgis\Geometries\MultiPoint;
-use Ajthinking\LaravelPostgis\Geometries\MultiPolygon;
-use Ajthinking\LaravelPostgis\Geometries\Point;
-use Ajthinking\LaravelPostgis\Geometries\Polygon;
-use Ajthinking\LaravelPostgis\Tests\BaseTestCase;
+use MStaack\LaravelPostgis\Geometries\GeometryCollection;
+use MStaack\LaravelPostgis\Geometries\LineString;
+use MStaack\LaravelPostgis\Geometries\MultiLineString;
+use MStaack\LaravelPostgis\Geometries\MultiPoint;
+use MStaack\LaravelPostgis\Geometries\MultiPolygon;
+use MStaack\LaravelPostgis\Geometries\Point;
+use MStaack\LaravelPostgis\Geometries\Polygon;
+use MStaack\LaravelPostgis\Tests\BaseTestCase;
 
 class UnderLocaleTest extends BaseTestCase
 {

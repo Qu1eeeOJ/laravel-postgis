@@ -1,11 +1,11 @@
 <?php
 
-namespace Ajthinking\LaravelPostgis\Schema\Grammars;
+namespace MStaack\LaravelPostgis\Schema\Grammars;
 
 use Illuminate\Support\Fluent;
 use Illuminate\Database\Schema\Grammars\PostgresGrammar;
-use Ajthinking\LaravelPostgis\Schema\Blueprint;
-use Ajthinking\LaravelPostgis\Exceptions\UnsupportedGeomtypeException;
+use MStaack\LaravelPostgis\Schema\Blueprint;
+use MStaack\LaravelPostgis\Exceptions\UnsupportedGeomtypeException;
 
 class PostgisGrammar extends PostgresGrammar
 {
@@ -280,7 +280,7 @@ class PostgisGrammar extends PostgresGrammar
     /**
      * Compile a gin index key command.
      *
-     * @param  \Ajthinking\LaravelPostgis\Schema\Blueprint  $blueprint
+     * @param  \MStaack\LaravelPostgis\Schema\Blueprint  $blueprint
      * @param  \Illuminate\Support\Fluent  $command
      * @return string
      */
@@ -294,7 +294,7 @@ class PostgisGrammar extends PostgresGrammar
     /**
      * Compile a gist index key command.
      *
-     * @param  \Ajthinking\LaravelPostgis\Schema\Blueprint  $blueprint
+     * @param  \MStaack\LaravelPostgis\Schema\Blueprint  $blueprint
      * @param  \Illuminate\Support\Fluent  $command
      * @return string
      */

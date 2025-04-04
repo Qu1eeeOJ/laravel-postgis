@@ -1,10 +1,10 @@
 <?php
 
-namespace Ajthinking\LaravelPostgis;
+namespace MStaack\LaravelPostgis;
 
 use Illuminate\Database\DatabaseServiceProvider as IlluminateDatabaseServiceProvider;
 use Illuminate\Database\DatabaseManager;
-use Ajthinking\LaravelPostgis\Connectors\ConnectionFactory;
+use MStaack\LaravelPostgis\Connectors\ConnectionFactory;
 
 class DatabaseServiceProvider extends IlluminateDatabaseServiceProvider
 {
